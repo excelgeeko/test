@@ -151,13 +151,13 @@
 		  <form action="jas.php"; method="post">
 
 			<label for="name"> Name <br /></label>
-			<input type="text" id="name" name="name" placeholder="Your name.." required>
+			<input type="text" id="name" name="firstname" placeholder="Your name.." required>
 
 			<label for="email"><br />Email<br /></label>
-			<input type="text" id="email" name="email" placeholder="Your last name.." required >
+			<input type="text" id="email" name="lastname" placeholder="Your last name.." required >
 			
 			<label for="message"><br />Your inquiry<br /></label>
-			<textarea id="message" name="message" placeholder="Write something.." style="height:200px" required></textarea><br />
+			<textarea id="message" name="subject" placeholder="Write something.." style="height:200px" required></textarea><br />
 
 			<input type="submit" value="send">
 

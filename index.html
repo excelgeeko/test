@@ -160,6 +160,9 @@
 			<textarea id="message" name="message" placeholder="Write something.." style="height:200px" required></textarea><br />
 
 			<input type="submit" value="send">
+			<?php if (!empty($msg)) {
+			echo "<h2>$msg</h2>";
+} 			?>
 
 	  </form>
 	  </div>
